@@ -1,0 +1,235 @@
+﻿PROCESS,1204-64-PR-REQ-101,Mixed Bed Polisher Unit,Normal,,,,,,,,,,,,,,,,,,Not Start
+PROCESS,1204-00-PR-REQ-102,Catalyst,Normal,,,,,,,,,,,,,,,,,,Not Start
+PROCESS,1204-00-PR-REQ-103,Laboratory Equipments,Normal,,,,,,,,,,,,,,,,,,Not Start
+PROCESS,1204-61-PR-REQ-104-1(NEW),Air Seperation Unit(NEW),Long Lead,1-Aug-18,10-Apr-19,17-Apr-19,21-May-19,24-Oct-19,20-Nov-19,20-Nov-19,30-Nov-19,30-Nov-19,-,,,,,,,,Manufacturing
+PROCESS,1204-20-PR-REQ-105,Hydrogen Recovery Unit,Normal,23-Oct-11,24-Nov-11,17-Mar-12,17-Aug-15,16-Sep-15,15-Jul-17,-,10-Dec-15,30-Nov-16,10-Oct-17,30-Jun-18,1-Jul-18,21-Jul-18,31-Jul-18,14-Aug-18,-,3-Sep-18,Site Delivery
+PROCESS,1204-00-PR-REQ-106,Chemicals,Normal,,,,,,,,,,,,,,,,,,Not Start
+PROCESS,1204-00-PR-REQ-107,Ceramic Balls,Normal,,,,,,,,,,,,,,,,,,Not Start
+PROCESS,1204-63-PR-REQ-108,Cooling Tower,Normal,13-Jul-14,30-Sep-14,18-Nov-14,3-Jan-15,16-Feb-15,19-Mar-15,28-Feb-15,10-Mar-15,9-Apr-15,19-May-15,3-Jul-16,-,-,-,-,-,13-Jul-16,Site Delivery
+PROCESS,1204-63-PR-REQ-108-AM1,Cooling Tower,Normal,-,-,-,3-Apr-16,23-Apr-16,13-Jul-16,-,1-May-16,1-Oct-16,1-Oct-16,10-Dec-16,-,-,-,-,-,10-Dec-17,Site Delivery
+HSE,1204-00-HS-REQ-151,Spray Nozzle,Normal,,,,,,,,,,,,,,,,,,Not Start
+HSE,1204-00-HS-REQ-152,Fire Extinguishers,Normal,,,,,,,,,,,,,,,,,,Not Start
+HSE,1204-00-HS-REQ-153,Automatic CO2/Clean agent syst,Normal,,,,,,,,,,,,,,,,,,Not Start
+HSE,1204-00-HS-REQ-154,Fire and Gas Alarm system,Normal,20-Nov-15,,,,,,,,,,,,,,,,,Issue For Inquiry
+HSE,1204-00-HS-REQ-155,Fire Fighting Equipment,Normal,19-Jan-20,,,,,,,,,,,,,,,,,Issue For Inquiry
+HSE,1204-00-HS-REQ-156,Foam System,Normal,,,,,,,,,,,,,,,,,,Not Start
+HSE,1204-00-HS-REQ-157,Deluge Valves,Normal,19-Jan-20,10-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+HSE,1204-00-HS-REQ-158,Safety Shower and Eye Wash,Normal,,,,,,,,,,,,,,,,,,Not Start
+HSE,1204-00-HS-REQ-159,Safety Signs,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-401A-01/02, Pipe & Fittings A,Normal,29-Mar-16,1-Jun-16,15-Jun-16,24-Mar-17,22-Feb-17,18-Nov-17,-,18-Nov-17,1-Feb-18,1-Apr-18,21-Feb-18,9-Oct-18,-,-,-,-,29-Oct-18,Site Delivery
+PIPING,1204-00-PI-REQ-401B, Pipe & Fittings B,Normal,26-Apr-20,-,-,-,,,,,,,,,,,,,,Vendor Selection
+PIPING,1204-00-PI-REQ-401C, Pipe & Fittings C,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-401D, Pipe & Fittings D,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-401H," Pipe & Fittings 52"" For Tower",Normal,-,-,-,-,5-Jul-16,5-Jul-16,-,-,-,-,-,-,-,-,-,-,6-Aug-16,Site Delivery
+PIPING,1204-00-PI-REQ-401?, Pipe & Fittings B,Normal,26-Apr-20,-,-,-,,,,,,,,,,,,,,Vendor Selection
+PIPING,1204-00-PI-REQ-402A,A/G Flanges A,Normal,30-Mar-16,1-Jun-16,15-Jun-16,1-Nov-17,7-Nov-17,9-Mar-18,-,10-Mar-18,20-Feb-18,1-Apr-18,7-Nov-18,8-Nov-18,-,-,-,-,20-Nov-18,Site Delivery
+PIPING,1204-00-PI-REQ-402B, Flanges B,Normal,26-Apr-20,-,-,-,,,,,,,,,,,,,,Vendor Selection
+PIPING,1204-00-PI-REQ-403A, Gasket A,Normal,30-Mar-16,1-Jun-16,15-Jun-16,23-Apr-20,27-Apr-20,,,,,,,,,,,,,Purchase Order
+PIPING,1204-00-PI-REQ-403B, Gasket B,Normal,-,-,-,-,,,,,,,,,,,,,,Vendor Selection
+PIPING,1204-00-PI-REQ-403H," Gasket 52"" For Tower",Normal,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,20-Aug-16,Site Delivery
+PIPING,1204-00-PI-REQ-404A, Valve A,Normal,30-Mar-16,1-Jun-16,15-Jun-16,14-Feb-18,14-Feb-18,30-Mar-18,-,9-Apr-18,9-May-18,18-May-18,31-Aug-18,20-Sep-18,-,-,-,-,18-Oct-18,Site Delivery
+PIPING,1204-00-PI-REQ-404B, Valve B,Normal,29-Apr-20,,,,,,,,,,,,,,,,,Issue For Inquiry
+PIPING,1204-00-PI-REQ-404C, Valve C,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-405A, Bolt & nuts A,Normal,2-Feb-20,20-Feb-20,10-Apr-20,20-Apr-20,21-Apr-20,2-Jun-20,-,2-Jun-20,2-Jun-20,2-Jun-20,,,,,,,,Manufacturing
+PIPING,1204-00-PI-REQ-405B, Bolt & nuts B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-465A,UG Bolt & nuts A,Normal,27-May-17,26-Jul-17,5-Aug-17,26-Nov-17,4-Dec-17,4-Dec-17,-,4-Dec-17,3-Jan-18,13-Jan-18,7-Apr-18,-,-,-,-,-,11-Apr-18,Site Delivery
+PIPING,1204-00-PI-REQ-406A, Steam Trap A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-406B, Steam Trap B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-407A, Strainer A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-407B, Strainer B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-408A, Insulation Material A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-408B, Insulation Material  B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-409A, Paint A,Normal,-,-,-,-,-,-,-,-,-,-,-,,,,,,,Final Inspection & Inspection Certificate
+PIPING,1204-00-PI-REQ-409B, Paint B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-409M, Paint AG PIPE A (AS OWNER REQUEST),Normal,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,6-Mar-19,Site Delivery
+PIPING,1204-00-PI-REQ-410A, Electrod & Rod A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-410B, Electrod & Rod B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-411A, Hose & Hose Coupling A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-411B, Hose & Hose Coupling B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-412A, Spring Support A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-412B, Spring Support B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-413A, Expansion Joint B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-413B, Expansion Joint B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-414A, Metal Jacket For Insulation A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-414B, Metal Jacket For Insulation B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-415A, Metal Jacket For Insulation A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-415B, Metal Jacket For Insulation B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-460A,Coating & Wrapping A,Normal,22-Sep-17,21-Nov-17,26-Nov-17,2-Dec-17,18-Dec-17,18-Dec-17,-,18-Dec-17,23-Dec-17,18-Dec-17,23-Jan-18,23-Jan-18,-,-,-,-,25-Jan-18,Site Delivery
+PIPING,1204-00-PI-REQ-460B,Coating & Wrapping B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-417A,Sample Cooler A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-417B,Sample Cooler B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-418A,"Hydrant,Monitor,Safety Shower And Eyewash A",Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-418B,"Hydrant,Monitor,Safety Shower And Eyewash B",Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-419A,Housebox and Housreel A,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-419B,Housebox and Housreel B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-430A,Plates For Air Coolers Pipe Support,Normal,-,-,-,25-Jun-19,28-Jun-19,-,-,-,-,-,8-Jul-19,-,-,-,-,-,9-Jul-19,Site Delivery
+PIPING,1204-00-PI-REQ-461AP,U/G PIPES A (MTO I),Normal,20-Jan-15,20-Apr-15,5-Dec-15,4-Oct-16,8-Nov-16,5-Dec-16,5-Dec-16,5-Dec-16,1-Mar-17,1-Mar-17,6-Apr-17,10-Jun-17,-,-,-,-,29-Sep-17,Site Delivery
+PIPING,1204-00-PI-REQ-461AF,U/G FITTINGS A (MTO I),Normal,20-Jan-15,20-Apr-15,5-Dec-15,3-Oct-16,3-Dec-16,3-Feb-17,3-Feb-17,3-Feb-17,5-Mar-17,15-Mar-17,6-Jun-17,6-Jun-17,-,-,-,-,3-Oct-17,Site Delivery
+PIPING,1204-00-PI-REQ-461AJ,U/G FITTINGS A (BALANCE MTO I),Normal,11-Nov-17,11-Dec-17,-,10-Jan-18,20-Jan-18,20-Jan-18,-,-,-,-,5-Apr-18,-,-,-,-,-,10-Apr-18,Site Delivery
+PIPING,1204-00-PI-REQ-461B, U/G PIPES & FITTINGS(MTO II),Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-462A,U/G FLANGE A,Normal,20-Jan-15,20-Apr-15,5-Dec-15,28-Sep-16,10-Nov-16,3-Feb-17,3-Feb-17,3-Feb-17,23-Feb-17,10-Feb-17,14-Jun-17,14-Jun-17,-,-,-,-,17-Sep-17,Site Delivery
+PIPING,1204-00-PI-REQ-462B,U/G FLANGE B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-463A,U/G GASKET A,Normal,30-Mar-16,20-Apr-16,-,8-Oct-16,2-Nov-16,5-Dec-16,5-Dec-16,19-Feb-17,25-Feb-17,28-Feb-17,7-Mar-17,7-Mar-17,-,-,-,-,1-Nov-17,Site Delivery
+PIPING,1204-00-PI-REQ-463B,U/G GASKET B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-464A,U/G VALVE A,Normal,20-Jan-15,20-Apr-15,5-Dec-15,28-Sep-16,2-Nov-16,29-Dec-16,29-Dec-16,29-Dec-16,28-Jan-17,28-Jan-17,12-Sep-17,-,-,-,-,-,20-Sep-17,Site Delivery
+PIPING,1204-00-PI-REQ-464B,U/G VALVE B,Normal,,,,,,,,,,,,,,,,,,Not Start
+PIPING,1204-00-PI-REQ-???,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+MECHANIC,1204-00-PV-REQ-201,Synthsis Reactor,Long Lead,16-Oct-10,21-Apr-12,12-May-12,8-Aug-15,23-Aug-15,7-Feb-17,6-Feb-16,7-Feb-16,20-Feb-17,20-Jul-17,3-Oct-18,5-Oct-18,5-Oct-18,5-Oct-18,6-Oct-18,-,28-Oct-18,Site Delivery
+MECHANIC,1204-00-PV-REQ-201A,Reactor,Normal,1-Dec-15,2-Jan-16,16-Mar-16,20-Apr-16,1-May-16,21-Oct-18,24-Jun-18,23-Jun-18,20-Oct-18,-,,,,,,,,Manufacturing
+MECHANIC,1204-00-PV-REQ-201B,Auto Thermal Reactor,Long Lead,15-Nov-15,1-Mar-16,16-Mar-16,30-Apr-16,11-Jun-16,23-Nov-17,-,23-Nov-17,20-Dec-17,12-Mar-18,-,,,,,,,Final Inspection & Inspection Certificate
+MECHANIC,1204-10-PV-REQ-202F,"WASTE HEAT BOILER (PGB , RAW MATERIAL S.D , S.S.H)",Long Lead,4-Feb-14,4-Mar-14,14-Feb-15,21-Nov-15,21-Feb-16,15-Dec-17,1-Feb-16,6-Feb-16,10-Jan-18,2-Apr-18,1-Nov-18,2-Nov-18,-,-,3-Dec-18,-,26-Dec-18,Site Delivery
+MECHANIC,1204-10-PV-REQ-202S,COMPLETION OF FABRICATION ( S.D ),Long Lead,7-Dec-19,30-Jan-20,-,14-Mar-20,,,,,,,,,,,,,,Vendor Selection
+MECHANIC,1204-10-PV-REQ-202D,COMPLETION OF FABRICATION ( D.S ),Normal,7-Dec-19,30-Jan-20,-,14-Mar-20,,,,,,,,,,,,,,Vendor Selection
+MECHANIC,1204-10-PV-REQ-202G,STEEL STRUCTURE OF WASTE HEAT BOILER,Normal,20-Jan-20,30-Jan-20,15-Feb-20,17-Feb-20,9-Mar-20,13-May-20,7-Jun-20,14-May-20,29-May-20,,,,,,,,,Suuply  Raw Material
+MECHANIC,1204-00-PV-REQ-203,Deaerator,Normal,12-May-12,14-Jun-12,25-Dec-12,5-Dec-15,9-Jan-16,18-May-16,18-May-16,19-May-16,15-Sep-16,1-Aug-16,25-Apr-17,2-May-17,-,-,-,-,25-May-17,Site Delivery
+MECHANIC,1204-00-PV-REQ-204A, Pressure Vessels A,Normal,20-Jul-12,12-Sep-12,23-Oct-12,19-May-15,30-May-15,9-Sep-15,2-Aug-15,1-Sep-15,1-Oct-15,10-Oct-15,15-Jul-17,-,-,-,-,-,18-Jul-17,Site Delivery
+MECHANIC,1204-00-PV-REQ-204A-AM1, Pressure Vessels A,Normal,20-Jul-12,12-Sep-12,23-Oct-12,19-May-15,30-May-15,9-Sep-15,2-Aug-15,1-Sep-15,1-Oct-15,10-Oct-15,27-Apr-17,-,-,-,-,-,6-May-17,Site Delivery
+MECHANIC,1204-00-PV-REQ-204B, Pressure Vessels B,Long Lead,13-Jun-12,17-Jul-12,23-Oct-12,28-Sep-15,8-Dec-15,9-Jun-16,14-Feb-16,15-Feb-16,20-Jun-17,20-Feb-18,20-Dec-18,-,-,-,-,-,28-Dec-18,Site Delivery
+MECHANIC,1204-00-PV-REQ-204C, High Pressure Vessels C (STAINLESS A),Long Lead,20-May-12,2-Jun-12,6-Apr-16,1-Jun-16,27-Apr-17,3-Jan-18,-,3-Jan-18,15-Feb-18,3-May-18,-,,,,,,,Final Inspection & Inspection Certificate
+MECHANIC,1204-00-PV-REQ-204D, High Pressure Vessels C (STAINLESS B),Normal,27-Oct-12,8-Jan-13,5-Aug-17,5-Aug-17,10-Oct-17,16-Jan-18,-,20-Jan-18,1-May-18,11-May-18,-,,,,,,,Final Inspection & Inspection Certificate
+MECHANIC,1204-00-PV-REQ-205A,"Internal , Packing  , Tray & D",Normal,2-Apr-14,28-Apr-14,-,25-May-14,15-Jun-14,11-Sep-14,30-Jun-14,30-Jul-14,28-Sep-14,8-Oct-14,20-Jun-16,-,-,-,-,-,20-Sep-16,Site Delivery
+MECHANIC,1204-00-PV-REQ-205A-AM1,"Internal , Packing  , Tray & D",Normal,-,-,-,-,11-Jul-16,-,-,11-Jul-16,-,10-Oct-16,13-Jan-17,-,-,-,-,-,18-Jan-17,Site Delivery
+MECHANIC,1204-00-PV-REQ-205A-AM2(CHANGE),"Internal , Packing  , Tray & D",Long Lead,-,-,-,-,12-Jul-16,-,-,12-Jul-16,1-Aug-16,1-Aug-16,20-Aug-16,-,-,-,-,-,15-Aug-16,Site Delivery
+MECHANIC,1204-00-PV-REQ-205B,CASALE INTERNALS,Long Lead,11-Dec-19,18-Dec-19,20-Apr-20,20-Apr-20,0-Jan-00,0-Jan-00,,,,,,,,,,,,Effective Date
+MECHANIC,1204-00-PV-REQ-206A,Column A,Long Lead,1-May-12,2-Jun-12,2-Sep-12,22-Dec-13,26-Jan-14,1-Apr-14,6-Mar-14,6-Mar-14,20-Aug-14,26-Apr-14,17-Oct-15,-,-,-,-,-,13-Mar-16,Site Delivery
+MECHANIC,1204-00-PV-REQ-206B,Column B,Normal,7-May-12,9-Jun-12,18-Sep-12,11-Feb-15,24-May-15,13-Nov-15,10-Aug-15,29-Sep-15,1-Oct-16,1-Oct-16,1-Jul-18,20-Jul-18,-,-,-,-,27-Sep-18,Site Delivery
+MECHANIC,1204-00-PV-REQ-210,Flare Stack,Normal,8-May-16,30-Aug-16,25-Jan-18,24-Feb-20,14-Mar-20,27-May-20,31-May-20,28-May-20,,,,,,,,,,Engineering
+MECHANIC,1204-00-PV-REQ-213A,C.S Stoarge Tanks,Normal,26-Apr-14,26-May-14,30-Jun-12,21-Aug-13,28-Aug-13,27-Nov-13,7-Sep-13,6-Nov-13,15-Jan-14,25-Jan-14,20-Dec-15,-,-,-,-,-,20-Dec-15,Site Delivery
+MECHANIC,1204-00-PV-REQ-213B,S.S Storage Tanks,Normal,28-Apr-12,14-May-12,30-Jun-12,19-Jan-20,27-Jan-20,22-Feb-20,-,22-Feb-20,28-Feb-20,20-May-20,,0-Jan-00,0-Jan-00,0-Jan-00,0-Jan-00,0-Jan-00,0-Jan-00,Site Delivery
+MECHANIC,1204-00-PV-REQ-214A, Tank Accessories,Normal,28-Jul-14,7-Sep-14,21-Dec-13,15-Feb-16,13-Apr-16,-,20-Aug-16,2-Aug-16,17-Aug-16,1-Sep-16,2-Nov-16,10-Nov-16,15-Nov-16,20-Nov-16,16-Dec-16,11-Mar-17,11-Mar-17,Site Delivery
+MECHANIC,1204-00-PV-REQ-214B, Tank Sealing System,Normal,-,-,-,-,-,-,-,-,-,-,-,,,,,,,Final Inspection & Inspection Certificate
+MECHANIC,1204-00-PV-REQ-220A,Silencers,Normal,19-Dec-19,25-Jan-20,24-Feb-20,20-Apr-20,3-May-20,,,,,,,,,,,,,Purchase Order
+MECHANIC,1204-00-PV-REQ-231A,Ladder & Platform (Column I),Normal,12-Jul-15,21-Aug-15,11-Aug-15,21-Aug-15,31-Aug-15,20-Dec-15,25-Dec-15,26-Dec-15,5-Jan-16,6-Jan-16,15-Jul-16,-,-,-,-,-,1-Aug-16,Site Delivery
+MECHANIC,1204-00-PV-REQ-231B,Ladder & Platform (Column II),Normal,-,-,-,27-May-18,30-May-18,18-Jun-18,-,18-Jun-18,28-Jun-18,20-Aug-18,10-Mar-19,20-Mar-19,-,-,-,-,20-Mar-19,Site Delivery
+MECHANIC,1204-00-PV-REQ-231C,Ladder & Platform ,Normal,-,-,-,4-Mar-19,9-Mar-19,18-Mar-19,-,-,-,-,,-,-,-,-,-,-,Site Delivery
+MECHANIC,1204-00-HM-REQ-251,"Reformer Package (catalyst tubes , fan & turbines , air preheater , burner & fuel skid , convection tubes  , Lube Oil )",Normal,-,-,-,18-Dec-15,25-Apr-16,15-Nov-17,30-Nov-17,13-Nov-17,2-Aug-18,2-Aug-18,25-Oct-18,1-Nov-18,-,-,-,-,10-Dec-18,Site Delivery
+MECHANIC,1204-00-HM-REQ-251B,"Reformer Steel work Supply And Shop Prefabrication (Radiant Wall , Duct & Stack) ",Normal,1-Oct-18,16-Oct-18,27-Oct-18,28-Oct-18,31-Oct-18,9-Mar-19,30-Apr-19,30-Apr-19,30-Mar-19,20-Apr-19,,-,-,-,-,-,-,Site Delivery
+MECHANIC,1204-00-HM-REQ-251C,Reformer Modulization Of Convection,Normal,28-Oct-18,28-Feb-19,14-Apr-19,29-Dec-19,13-Jan-20,22-Feb-20,19-Jan-20,28-Feb-20,-,,,,,,,,,Suuply  Raw Material
+MECHANIC,1204-00-HM-REQ-251D,Reformer TransferLine,Normal,19-Feb-19,10-May-19,25-May-19,9-Feb-20,25-Feb-20,7-Apr-20,-,10-Apr-20,-,,,,,,,,,Suuply  Raw Material
+MECHANIC,1204-00-HM-REQ-251E,Reformer Expansion Joint,Normal,19-Feb-19,10-May-19,25-May-19,19-Jan-20,9-Feb-20,9-Mar-20,-,10-Feb-20,15-Feb-20,,,,,,,,,Suuply  Raw Material
+MECHANIC,1204-00-HM-REQ-251R,Reformer Refractory,Normal,2-Feb-20,26-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+MECHANIC,1204-00-HM-REQ-251P,Reformer Inlet/Outlet PIGTAIL Bending Pipes,Normal,15-Dec-20,20-Jan-20,-,5-Feb-20,,,,,,,,,,,,,,Vendor Selection
+MECHANIC,1204-00-HM-REQ-251S,Reformer Damper,Normal,19-Feb-19,10-May-19,25-May-19,,,,,,,,,,,,,,,TBA
+MECHANIC,1204-00-HM-REQ-253A,Air Coolers,Normal,7-May-12,27-May-12,23-Dec-12,24-Dec-13,25-Jan-14,10-Aug-14,9-Feb-14,19-Feb-14,1-Jul-15,6-Jul-15,7-Jul-18,-,-,-,-,-,7-Jul-18,Site Delivery
+MECHANIC,1204-00-HM-REQ-254,Auxilary Boiler,Normal,5-Apr-14,5-May-14,22-Nov-14,31-Dec-14,18-Jan-15,5-Apr-15,21-Feb-15,26-Feb-15,17-Apr-15,28-Mar-15,,,,,,,,Manufacturing
+MECHANIC,1204-00-HM-REQ-256A,Filters,Normal,30-Mar-17,29-Apr-17,27-Aug-17,,,,,,,,,,,,,,,TBA
+MECHANIC,1204-00-HM-REQ-256B,Filters,Normal,,,,,,,,,,,,,,,,,,Not Start
+MECHANIC,1204-00-HM-REQ-257A, C.S Shell & Tube Exchangers,Normal,28-May-14,28-Jun-14,18-Nov-15,2-Feb-15,28-Dec-14,21-Mar-15,22-Feb-15,24-Mar-15,10-Sep-15,1-Sep-15,22-Nov-16,-,-,-,-,-,26-Nov-16,Site Delivery
+MECHANIC,1204-00-HM-REQ-257A-AM1, C.S Shell & Tube Exchangers,Normal,28-May-14,28-Jun-14,18-Nov-15,2-Feb-15,28-Dec-14,21-Mar-15,22-Feb-15,24-Mar-15,10-Nov-15,1-Sep-15,29-Jun-17,-,-,-,-,-,2-Jul-17,Site Delivery
+MECHANIC,1204-00-HM-REQ-257B, S.S Shell & Tube Exchangers,Normal,5-May-15,2-Sep-15,17-Feb-16,19-Jan-16,19-Apr-16,23-Sep-18,23-Jun-18,21-Sep-18,28-Oct-18,1-May-19,,,,,,,,Manufacturing
+MECHANIC,1204-00-HM-REQ-257C, Special Shell & Tube Exchange,Normal,2-Dec-15,1-Mar-16,16-Mar-16,1-Jun-16,26-Apr-17,5-Dec-17,-,5-Dec-17,10-Jul-18,31-May-18,1-Feb-20,-,-,-,-,-,12-Mar-20,Site Delivery
+MECHANIC,1204-00-HM-REQ-260,Double Pipe Heat Exchanger,Normal,21-Apr-17,21-May-17,19-Aug-17,8-Feb-20,24-Feb-20,28-Apr-20,-,28-Apr-20,,,,,,,,,,Engineering
+MECHANIC,1204-00-HM-REQ-261A,Plate Heat Exchanger,Normal,,,,,,,,,,,,,,,,,,Not Start
+MECHANIC,1204-00-HM-REQ-??,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-301-1-NEW,Centrifugal Compressors,Long Lead,24-Mar-19,23-Apr-19,28-Apr-19,10-Jan-20,9-Feb-20,5-Mar-20,25-Feb-20,29-Feb-20,1-May-20,,,,,,,,,Suuply  Raw Material
+MACHINERY,1204-00-RE-REQ-302,N2 Circulator Compressor,Normal,4-Apr-16,4-May-16,1-Oct-18,23-May-20,-,,,,,,,,,,,,,Purchase Order
+MACHINERY,1204-00-RE-REQ-304,Air Compressor,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-307A-1,Centrifugal Pumps ,Long Lead,27-Jan-19,6-Feb-19,7-May-19,15-Oct-19,30-Oct-19,-,25-Nov-19,25-Nov-19,10-Feb-20,30-Dec-19,,,,,,,,Manufacturing
+MACHINERY,1204-00-RE-REQ-307B-1,Centrifugal Pumps,Long Lead,25-Aug-19,24-Oct-19,23-Dec-19,5-Jan-20,-,-,27-Jan-20,27-Feb-20,1-Mar-20,20-Mar-20,,,,,,,,Manufacturing
+MACHINERY,1204-00-RE-REQ-327,Chemical Injection Packages,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-322,Emergency Diesel Generator,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-326,Cranes,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-330,Ejector,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-332,Lubricants,Normal,,,,,,,,,,,,,,,,,,Not Start
+MACHINERY,1204-00-RE-REQ-350,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+CIVIL & STRUCTURE,1204-00-ST-REQ-740A,STEEL STRUCTURE,Normal,30-Sep-16,20-Oct-16,-,1-Feb-17,14-Feb-17,18-Mar-17,18-Mar-17,30-Apr-17,1-Jun-17,20-Jun-17,4-Nov-17,-,-,-,-,-,8-Nov-17,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-740B,STEEL STRUCTURE,Normal,-,-,-,4-Mar-19,9-Mar-19,18-Mar-19,-,18-Mar-19,18-Mar-19,20-Apr-19,1-Apr-20,-,-,-,-,-,-,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-740C,STEEL STRUCTURE,Normal,23-Dec-19,12-Jan-20,22-Jan-20,23-Jan-20,5-Feb-20,20-Feb-20,23-Feb-20,1-Feb-20,20-Feb-20,,,,,,,,,Suuply  Raw Material
+CIVIL & STRUCTURE,1204-00-ST-REQ-740D,STEEL STRUCTURE,Normal,15-Feb-20,30-Mar-20,14-Apr-20,14-Apr-20,16-Apr-20,3-May-20,-,3-May-20,,,,,,,,,,Engineering
+CIVIL & STRUCTURE,1204-00-ST-REQ-742,ANCHOR BOLTS,Normal,15-Apr-15,15-May-15,-,14-Jul-15,19-Jul-15,24-Jul-15,-,13-Aug-15,23-Aug-15,22-Sep-15,-,-,-,-,-,-,4-Mar-16,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742A,ANCHOR BOLTS,Normal,27-Mar-16,1-May-16,11-May-16,16-May-16,-,-,-,-,-,-,-,-,-,-,-,-,10-Nov-16,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742C,ANCHOR BOLTS,Normal,-,-,-,-,11-Mar-17,-,-,-,-,-,-,-,-,-,-,-,10-Jun-17,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742C-AM1,ANCHOR BOLTS,Normal,-,-,-,-,28-Apr-18,-,-,-,-,-,8-Aug-18,-,-,-,-,-,10-Aug-18,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742D,ANCHOR BOLTS,Normal,-,-,-,-,4-Jul-18,-,-,-,-,-,,27-Sep-18,-,-,-,-,27-Sep-18,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742E,ANCHOR BOLTS,Normal,-,-,-,-,1-Dec-18,-,-,-,-,-,-,3-Feb-19,-,-,-,-,3-Feb-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742F,ANCHOR BOLTS,Normal,-,-,-,-,-,-,-,-,-,-,-,3-Feb-19,-,-,-,-,3-Feb-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742G,ANCHOR BOLTS,Normal,-,-,-,-,-,-,-,-,-,-,-,17-Mar-19,-,-,-,-,17-Mar-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-742H,ANCHOR BOLTS,Normal,-,-,-,-,-,-,-,-,-,-,-,13-Aug-19,-,-,-,-,13-Aug-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-743A,STEEL GRATING,Normal,2-Jan-18,22-Jan-18,21-Feb-18,17-Jun-18,27-Jun-18,2-Jul-18,-,2-Jul-18,1-Aug-18,-,-,-,-,-,-,-,28-Oct-18,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-743B,STEEL GRATING B,Normal,-,-,-,-,16-Oct-18,-,-,-,-,-,-,-,-,-,-,-,26-Dec-18,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-745,Guard Rail,Normal,-,-,-,28-May-18,30-May-18,,,,,,,,,,,,,Purchase Order
+CIVIL & STRUCTURE,1204-00-ST-REQ-746,NUT & BOLTS ST. TRC.,Normal,-,-,-,-,12-Nov-18,-,-,-,-,-,-,-,-,-,-,-,27-Dec-18,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-746A,NUT & BOLTS ST. TRC. A,Normal,-,-,-,-,12-Nov-18,-,-,-,-,-,-,-,-,-,-,-,5-Feb-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-746B,NUT & BOLTS ST. TRC. B,Normal,-,-,-,13-Apr-19,-,-,-,-,-,-,-,-,-,-,-,-,23-Apr-19,Site Delivery
+CIVIL & STRUCTURE,1204-00-ST-REQ-750,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-64-EL-REQ-501,NEUTRAL GROUNDING RESISTOR,Normal,15-Dec-19,19-Jan-20,26-Feb-20,25-Feb-20,29-Feb-20,12-Apr-20,-,12-Apr-20,12-Apr-20,12-Apr-20,,,,,,,,Manufacturing
+ELECTRICAL,1204-00-EL-REQ-502,MEDIUM VOLTAGE SWITCHGEARS,Normal,16-Jan-18,21-Jan-18,-,26-Jan-20,10-Mar-20,13-May-20,2-May-20,14-May-20,-,,,,,,,,,Suuply  Raw Material
+ELECTRICAL,1204-00-EL-REQ-503,LOW VOLTAGE SWITCHGEARS/MCC,Normal,-,-,-,-,-,,,,,,,,,,,,,Purchase Order
+ELECTRICAL,1204-00-EL-REQ-504, POWER & DISTRIBUTION TRANSFORMER,Long Lead,11-Feb-13,13-Mar-13,11-May-15,18-Jan-20,2-Mar-20,3-May-20,4-May-20,4-May-20,-,,,,,,,,,Suuply  Raw Material
+ELECTRICAL,1204-00-EL-REQ-505,POWER DISTRIBUTION CONTROL SYS,Normal,-,22-Feb-20,5-Apr-20,20-May-20,-,,,,,,,,,,,,,Purchase Order
+ELECTRICAL,1204-00-EL-REQ-506,AC UPS,Normal,23-Jan-20,,,,,,,,,,,,,,,,,Issue For Inquiry
+ELECTRICAL,1204-00-EL-REQ-507,DC BATTERY CHARGER,Normal,19-Feb-20,17-Mar-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-508,LIGHTING & DISTRIBUTION PANEL ,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-509A," POWER, CONTROL AND EARTHING C",Normal,18-Jan-20,28-Jan-20,1-Mar-20,-,9-Mar-20,30-May-20,-,30-May-20,,,,,,,,,,Engineering
+ELECTRICAL,1204-00-EL-REQ-509B, COMMUNICATION CABLES,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-510,CATHODIC PROTECTION,Normal,4-Jan-17,8-Jan-17,-,25-Feb-20,26-Apr-20,31-May-20,-,31-May-20,,,,,,,,,,Engineering
+ELECTRICAL,1204-00-EL-REQ-512,TELEPHONE SYSTEM,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-513,PUBLIC ADDRESS AND INTERCOM SY,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-514,CCTV SYSTEM,Normal,18-Feb-20,,,,,,,,,,,,,,,,,Issue For Inquiry
+ELECTRICAL,1204-00-EL-REQ-515,ELECTRICAL HEAT TRACING ,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-516,RADIO SYSTEM,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-517,LV VARIABLE SPEED DRIVES,Normal,9-Feb-20,25-Apr-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-520,LIGHTING FIXTURES,Normal,17-Feb-20,10-Mar-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-522,REFORMER ELECTRO MOTOR,Normal,12-Dec-19,17-Dec-19,19-Nov-19,7-Jun-20,,,,,,,,,,,,,,Vendor Selection
+ELECTRICAL,1204-00-EL-REQ-525,SOCKET OUTLET AND PLUGS,Normal,17-Feb-20,23-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-526,JUNCTION BOXES,Normal,23-Feb-20,29-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-527,LIGHTING POLES,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-528,LOCAL CONTROL STATION,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-529,EARTHING AND LIGHTNING MATERIA,Normal,14-Dec-19,26-Jan-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+ELECTRICAL,1204-00-EL-REQ-530,CABLE GLANDS,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-531,CABLE TRAYS AND LADDERS,Normal,15-Dec-19,26-Jan-20,-,-,,,,,,,,,,,,,,Vendor Selection
+ELECTRICAL,1204-00-EL-REQ-533,CABLE TERMINATION & ACCESSORIE,Normal,,,,,,,,,,,,,,,,,,Not Start
+ELECTRICAL,1204-00-EL-REQ-560,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-601,CONTROL SYSTEM,Long Lead,10-Dec-19,16-Dec-20,25-Jul-18,26-Jan-20,20-Feb-20,28-Apr-20,20-May-20,21-May-20,,,,,,,,,,Engineering
+INSTRUMENT,1204-00-IN-REQ-602,ESD,Long Lead,10-Dec-19,16-Dec-20,-,26-Jan-20,20-Feb-20,28-Apr-20,20-May-20,21-May-20,,,,,,,,,,Engineering
+INSTRUMENT,1204-00-IN-REQ-603,PROCESS STREAM ANALYZERS,Long Lead,13-Dec-17,19-Dec-17,11-Nov-18,11-Jan-20,15-Mar-20,,22-Apr-20,,,,,,,,,,,Kick-Off Meeting
+INSTRUMENT,1204-00-IN-REQ-604,ON-OFF VALVES,Long Lead,18-Dec-19,24-Dec-19,6-Jan-19,17-Feb-20,23-Feb-20,16-Apr-20,21-Apr-20,22-Apr-20,,,,,,,,,,Engineering
+INSTRUMENT,1204-00-IN-REQ-605,CONTROL VALVES ,Long Lead,21-Dec-19,-,-,17-Feb-20,23-Feb-20,15-Apr-20,21-Apr-20,22-Apr-20,,,,,,,,,,Engineering
+INSTRUMENT,1204-00-IN-REQ-606,PRESSURE RELIEF VALVES,Normal,30-Nov-15,9-Mar-16,12-Nov-17,7-Jun-20,,,,,,,,,,,,,,Vendor Selection
+INSTRUMENT,1204-00-IN-REQ-607,RUPTURE DISCS,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-608,ANNUBAR FLOW ELEMENT,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-611,MASS FLOW METER,Normal,9-Jan-18,17-Jan-18,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-612,ORIFICE PLATES & FLANGES,Normal,15-Dec-19,6-Jan-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-614,ROTAMETERS,Normal,23-Feb-20,13-Mar-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-617,VENTURI TUBES & FLOW NOZZLES,Normal,15-Dec-19,23-Jan-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-619,LEVEL SWITCHES ,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-620,LEVEL GAUGES,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-621,DISPLACER TYPE LEVEL TRANSMITT,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-622,PRESSURE GAUGES,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-623,PRESSURE SWITCHES,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-624,ELECTRONIC TRANSMITTERS,Normal,9-Jan-18,17-Jan-18,19-Apr-18,25-Feb-20,14-Mar-20,13-May-20,-,14-May-20,,,,,,,,,,Engineering
+INSTRUMENT,1204-00-IN-REQ-625,TEMP. ELEMENT / TRANSMITTERS &,Normal,11-Feb-20,1-Mar-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-626,MOTOR OPERATED VALVES,Long Lead,7-Jan-18,27-Jan-18,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-627,JUNCTION BOXES & CABLE GLANDS,Normal,12-Feb-20,17-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-628,INSTRUMENT CABLES,Normal,19-Feb-20,23-Feb-20,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-630,INSTRUMENT LADDERS / TRAYS,Normal,9-Mar-20,14-Mar-20,13-May-20,-,,,,,,,,,,,,,,Vendor Selection
+INSTRUMENT,1204-00-IN-REQ-631,TUBE AND TUBE FITTINGS,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-634,RADAR TYPE LEVEL TRANSMITTER,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-641,TEMPERATURE GAUGES & TESTWELLS,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-648,ULTRASONIC LEVEL TRANSMITTER,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-654,POWER DISTRIBUTION PANEL,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-655,DESUPERHEATER,Normal,30-Dec-17,17-Jan-18,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+INSTRUMENT,1204-00-IN-REQ-636,BLANKETING SYSTEM,Normal,,,,,,,,,,,,,,,,,,Not Start
+INSTRUMENT,1204-00-IN-REQ-680,MISC,Normal,,,,,,,,,,,,,,,,,,Not Start
+HVAC,1204-00-HV-REQ-790,HVAC EQUIPMENT,Normal,3-Jan-15,3-Jan-15,,,,,,,,,,,,,,,,"Vendor Quotations 
+(T &C) Received (FINISH)"
+HVAC,1204-00-HV-REQ-791,EXPLOSION PROTECTION VALVE (CHANGE),Normal,12-Apr-14,15-May-14,3-Jun-14,17-Jun-14,27-Jul-14,28-Sep-14,3-Oct-14,8-Oct-14,13-Oct-14,2-Dec-14,11-Jan-15,12-Mar-15,22-Mar-15,25-Mar-15,6-Apr-15,6-Sep-16,1-Sep-16,Site Delivery
+HVAC,1204-00-HV-REQ-792,DUCT ACCESSORIES,Normal,,,,,,,,,,,,,,,,,,Not Start
+HVAC,1204-00-HV-REQ-793,BULK MATERIAL,Normal,,,,,,,,,,,,,,,,,,Not Start
