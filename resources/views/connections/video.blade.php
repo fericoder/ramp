@@ -57,7 +57,7 @@
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
                             <h3 class="kt-portlet__head-title">
-                                سیستم ویدیو کنفرانس آپادانا
+                                سیستم ویدیو کنفرانس رامپکو
                             </h3>
                         </div>
                     </div>

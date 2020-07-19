@@ -178,7 +178,7 @@
         <div class="kt-container ">
             <div class="kt-subheader__main">
 
-                <h3 class="kt-subheader__title">داشبورد آپادانا </h3>
+                <h3 class="kt-subheader__title">داشبورد رامپکو </h3>
 
                 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 

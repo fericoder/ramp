@@ -26,7 +26,7 @@
                     </div>
 
                     <div style="padding: 50px;font-size: 17px;" class="modal-body">
-                        به سامانه یکپارچه تصمیم ساز مدیریت پروژه آپادانا خوش آمدید.
+                        به سامانه یکپارچه تصمیم ساز مدیریت پروژه رامپکو خوش آمدید.
                         <br>
                         لطفا از طریق کلیک زیر نسبت به تکمیل مشخصات و تغییر رمز ورود خود اقدام نمایید.
                         <br>
@@ -260,7 +260,7 @@
                             <div class="kt-portlet__body">
                                 <div class="kt-widget__files">
                                     <div class="kt-widget__media mb-5">
-                                        <h3>آپادانا دریک نگاه</h3>
+                                        <h3>رامپکو دریک نگاه</h3>
                                     </div>
                                     <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/look.png" alt="image"></center>
                                 </div>

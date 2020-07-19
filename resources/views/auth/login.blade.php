@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8"/>
 
-    <title>آپادانا | ورود به سیستم</title>
-    <meta name="description" content="سامانه يكپارچه تصميم ساز مديريت پروژه آپادانا">
+    <title>رامپکو | ورود به سیستم</title>
+    <meta name="description" content="سامانه يكپارچه تصميم ساز مديريت پروژه رامپکو">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--begin::Fonts -->
@@ -63,7 +63,7 @@
                     </div>
                     <div class="kt-login__signin">
                         <div class="kt-login__head">
-                            <h3 style="color: white!important;" class="kt-login__title"> سامانه يكپارچه تصميم ساز مديريت پروژه آپادانا</h3>
+                            <h3 style="color: white!important;" class="kt-login__title"> سامانه يكپارچه تصميم ساز مديريت پروژه رامپکو</h3>
                         </div>
                         <form class="kt-form" method="POST" action="{{ route('login') }}">
                             @csrf
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <span style="color: white; text-align: left; float:left;">DEVELOPED IN RIECO IT DEPARTMENT © 2013 - 2020</span>
+            <a target="_blank" href="http://rieco.ir"><span style="color: white; text-align: left; float:left;">DEVELOPED WITH <i style="color: red" class=" fa fa-heart"></i> IN RIECO IT DEPARTMENT © 2013 - 2020</span>v
         </div>
     </div>
 </div>

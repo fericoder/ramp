@@ -70,7 +70,7 @@
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
                             <h3 class="kt-portlet__head-title">
-                                گالری پروژه آپادانا
+                                گالری پروژه رامپکو
                             </h3>
                         </div>
 
@@ -185,7 +185,7 @@
                                                                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
                                                                 <td style="    padding-left: 45px;">
                                                                     <?php
-                                                                    $txt = urlencode("\nعنوان: $photo->description \n  \n جهت مشاهده تصویر، ‌برروی لینک کلیک نمایید.\n سامانه يكپارچه تصميم ساز مديريت پروژه آپادانا");
+                                                                    $txt = urlencode("\nعنوان: $photo->description \n  \n جهت مشاهده تصویر، ‌برروی لینک کلیک نمایید.\n سامانه يكپارچه تصميم ساز مديريت پروژه رامپکو");
                                                                     ?>
                                                                     <a style="font-size: 27px; float: left;" href="whatsapp://send?text={{  url($photo->file) }} " data-action="share/whatsapp/share" target="_blank" class="icoRss" title="Rss"><i class="fa fa-whatsapp"></i></a>
                                                                     <a style="font-size: 27px; float: left; margin-left: 20px" href="tg://msg_url?url={{  url($photo->file) }}&text={{ $txt }}" class="icoTwitter" title="Rss"><i class="fa fa-telegram"></i></a>

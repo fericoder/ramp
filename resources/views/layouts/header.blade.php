@@ -31,7 +31,7 @@
                                 </a>
                             </div>
                             <div style="color: #fff" class="kt-header__brand-nav iranyekan">
-                                <span>سامانه يكپارچه تصميم ساز مديريت پروژه آپادانا</span>
+                                <span>سامانه يكپارچه تصميم ساز مديريت پروژه رامپکو</span>
                             </div>
                         </div>
                         <!-- end:: Brand -->
@@ -254,7 +254,7 @@
                                     <li class="kt-menu__item {{ request()->is('*glance*') ? 'kt-menu__item--open kt-menu__item--here kt-menu__item--submenu kt-menu__item--rel kt-menu__item--open kt-menu__item--here' : '' }} "
                                         data-ktmenu-submenu-toggle="click" aria-haspopup="true">
                                         <a href="/glance" class="kt-menu__link">
-                                            <span class="kt-menu__link-text">آپادانا در یک نگاه</span>
+                                            <span class="kt-menu__link-text">رامپکو در یک نگاه</span>
                                             <i class="kt-menu__ver-arrow la la-angle-right"></i></a>
                                     </li>
 

@@ -1,4 +1,4 @@
-@extends('layouts.master', ['title' => 'آپادانا در یک نگاه'])
+@extends('layouts.master', ['title' => 'رامپکو در یک نگاه'])
 @section('content')
     <style>
         .kt-timeline-v2__item-time {
@@ -16,7 +16,7 @@
 
                 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 
-                <span class="kt-subheader__desc iranyekan">آپادانا در یک نگاه</span>
+                <span class="kt-subheader__desc iranyekan">رامپکو در یک نگاه</span>
             </div>
 
         </div>
@@ -42,13 +42,13 @@
                                     <i class="flaticon2-correct"></i>
                                 </a>
 
-                                <a href="#" class="kt-widget__title">طرح متانول آپادانا خلیج فارس در یک نگاه</a>
+                                <a href="#" class="kt-widget__title">طرح متانول رامپکو خلیج فارس در یک نگاه</a>
 
                             </div>
 
                             <div class="kt-widget__info">
                                 <div class="kt-widget__desc pt-3">
-                                    پتروشیمی آپادانا خلیج فارس یک واحد تولید متانول از خوراک گاز طبیعی به ظرفیت 5000 تن
+                                    پتروشیمی رامپکو خلیج فارس یک واحد تولید متانول از خوراک گاز طبیعی به ظرفیت 5000 تن
                                     در روز میباشد که با لیسانس شرکت کازاله طراحی گردیده است. این واحد از چهار بخش تشکیل
                                     شده است. در بخش اول که وظیفه تولید گاز سنتز را دارد، ابتدا ناخالصی ها و ترکیبات
                                     گوگردی خوراک گاز طبیعی پس از ورود به واحد از آن جدا می شود. عملیات تبدیل گاز متان به
@@ -323,7 +323,7 @@
                                             <i class="fa fa-genderless kt-font-success"></i>
                                         </div>
                                         <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-                                            ثبت شرکت ونيران آپادانا
+                                            ثبت شرکت ونيران رامپکو
                                         </div>
 
                                     </div>

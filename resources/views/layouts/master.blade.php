@@ -10,7 +10,7 @@ Contact: cyber.injector@yahoo.com
 <head>
     <meta charset="utf-8"/>
 
-    <title>آپادانا  | {{ $title }}</title>
+    <title>رامپکو  | {{ $title }}</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -128,11 +128,11 @@ Contact: cyber.injector@yahoo.com
                         <div class="kt-footer__wrapper">
                             <div class="kt-footer__logo">
                                 <a href="/">
-                                    <img style="width: 110px;padding: 10px;" alt="Logo" src="/assets/pidemco.png">
+                                    <img style="width: 110px;padding: 10px;" alt="Logo" src="/assets/logo.png">
                                 </a>
                                 <div class="kt-footer__copyright">
-                                    2019&nbsp;&copy;&nbsp;
-                                    <a href="" target="_blank">سامانه يكپارچه تصميم ساز مديريت پروژه آپادانا
+                                    2020&nbsp;&copy;&nbsp;
+                                    <a href="" target="_blank">سامانه يكپارچه تصميم ساز مديريت پروژه رامپکو
                                     </a>
                                 </div>
                             </div>
