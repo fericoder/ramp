@@ -36,6 +36,15 @@ Contact: cyber.injector@yahoo.com
     <link href="/assets/plugins/global/sweetalert/sweetalert.css" rel="stylesheet" type="text/css"/>
     @yield('headerScripts')
     <style>
+
+        .nav-color{
+            font-size: 18px;
+            color: #1d43ff;
+        }
+        .dropdown-item{
+            color: #1d43ff;
+        }
+
         .dt-print-view{
             font-family: iranyekan!important;
             padding: 50px!important;

@@ -275,12 +275,12 @@
                 {{--<a style="cursor: pointer;" data-toggle="modal" data-target="#darYekNegah">--}}
                 <a style="cursor: pointer; " href="{{ route('pm.dashboard') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>داشبورد پروژه</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">داشبورد پروژه </h3>
                             </div>
-                            <center><img class="kt-widget__img kt-hidden-" width="45px" src="/assets/media/index/dashboard.png" alt="image"></center>
+                            <center><img class="kt-widget__img kt-hidden-"   width="45px" src="/assets/media/index/dashboard.png" alt="image"></center>
                         </div>
                     </div>
                 </div>
@@ -289,10 +289,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('under') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>وقایع مهم</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">وقایع مهم</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/events.png" alt="image"></center>
                         </div>
@@ -310,10 +310,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('tdl.index') }}">
                     <div class="kt-portlet">
-                        <div class="kt-portlet__body">
+                        <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                             <div class="kt-widget__files">
                                 <div class="kt-widget__media mb-5">
-                                    <h3>ارجاعات</h3>
+                                    <h3  style="color: rgb(19, 16, 30,0.5)">ارجاعات</h3>
                                 </div>
                                 <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/erjaat.png" alt="image"></center>
                             </div>
@@ -325,10 +325,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('engineering.index') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>مهندسی</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">مهندسی</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="45px" src="/assets/media/index/engineering.png" alt="image"></center>
                         </div>
@@ -340,10 +340,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
               <a  href="{{ route('procurement.dashboard') }}" >
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>کالا</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">کالا</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/Goods.png" alt="image"></center>
                         </div>
@@ -355,10 +355,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('construction.dashboard') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>ساختمان و نصب</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">ساختمان و نصب</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/building-icon.png" alt="image"></center>
                         </div>
@@ -376,10 +376,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('calendar') }}">
                     <div class="kt-portlet">
-                        <div class="kt-portlet__body">
+                        <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                             <div class="kt-widget__files">
                                 <div class="kt-widget__media mb-5">
-                                    <h3>تقویم</h3>
+                                    <h3  style="color: rgb(19, 16, 30,0.5)">تقویم</h3>
                                 </div>
                                 <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/Calendar.png" alt="image"></center>
                             </div>
@@ -391,10 +391,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('under') }}">
                     <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>مدیریت هزینه</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">مدیریت هزینه</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/cost.png" alt="image"></center>
                         </div>
@@ -406,10 +406,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('risk.index') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>مدیریت ریسک</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">مدیریت ریسک</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/risk.png" alt="image"></center>
                         </div>
@@ -421,10 +421,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('under') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3>مدیریت منابع</h3>
+                                <h3  style="color: rgb(19, 16, 30,0.5)">مدیریت منابع</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/resource.png" alt="image"></center>
                         </div>
@@ -442,10 +442,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('weather') }}">
                     <div style="    height: 167px;" class="kt-portlet">
-                        <div  class="kt-portlet__body">
+                        <div  class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                             <div class="kt-widget__files">
                                 <div class="kt-widget__media mb-5">
-                                    <h3>آب و هوا</h3>
+                                    <h3  style="color: rgb(19, 16, 30,0.5)">آب و هوا</h3>
                                 </div>
                                 <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/glance.png" alt="image"></center>
                             </div>
@@ -457,10 +457,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('hse.index') }}">
                 <div class="kt-portlet">
-                    <div class="kt-portlet__body">
+                    <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                         <div class="kt-widget__files">
                             <div class="kt-widget__media mb-5">
-                                <h3 style="font-size: 20px!important;    margin-bottom: 56px;">ایمنی، بهداشت و محیط زیست</h3>
+                                <h3 style="color: rgb(19, 16, 30,0.5);">ایمنی، بهداشت و محیط زیست</h3>
                             </div>
                             <center><img class="kt-widget__img kt-hidden-" width="40px" src="/assets/media/index/Health.png" alt="image"></center>
                         </div>
@@ -472,10 +472,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('gallery.index') }}">
                     <div class="kt-portlet">
-                        <div class="kt-portlet__body">
+                        <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                             <div class="kt-widget__files">
                                 <div class="kt-widget__media mb-5">
-                                    <h3>گالری تصاویر</h3>
+                                    <h3  style="color: rgb(19, 16, 30,0.5)">گالری تصاویر</h3>
                                 </div>
                                 <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/Gallery.png" alt="image"></center>
                             </div>
@@ -487,10 +487,10 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                 <a style="cursor: pointer;" href="{{ route('under') }}">
                     <div class="kt-portlet">
-                        <div class="kt-portlet__body">
+                        <div class="kt-portlet__body" style="background-color: rgb(19, 16, 30,0.1)">
                             <div class="kt-widget__files">
                                 <div class="kt-widget__media mb-5">
-                                    <h3>دوربین مداربسته</h3>
+                                    <h3  style="color: rgb(19, 16, 30,0.5)">دوربین مداربسته</h3>
                                 </div>
                                 <center><img class="kt-widget__img kt-hidden-" width="50px" src="/assets/media/index/CCTV.png" alt="image"></center>
                             </div>
