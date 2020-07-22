@@ -17,4 +17,10 @@ class Tdl extends Model
     {
         return $this->belongsTo('App\User', 'assignedTo');
     }
+
+    public function doerSecond()
+    {
+        return $this->belongsTo('App\User', 'assignedToSecond');
+    }
+
 }

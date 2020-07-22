@@ -2,19 +2,7 @@
 @section('content')
 
     <style>
-        .select2-selection__rendered {
-            direction: rtl!important;
-            font-family: byekan !important;
-            text-align: right!important;
-        }
-        .select2-results__option{
-            direction: rtl!important;
-            font-family: byekan !important;
-            text-align: right!important;
-        }
-        .select2{
-            width: 100%!important;
-        }
+
     </style>
 
 
@@ -100,6 +88,15 @@
                             </div>
 
 
+                            <div class="form-group row">
+                                <label class="col-md-3 label-control" for="name">کد فعالیت <sup style="color: red; font-size: 18px" >*</sup> </label>
+                                <div class="col-md-9">
+                                    <input  type="text" id="activityCode" disabled class="form-control" name="activityCode">
+                                </div>
+                            </div>
+
+
+
                         </div>
 
 
@@ -164,11 +161,11 @@
                         <div class="kt-widget24">
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
-                                    <h4 class="kt-widget24__title">كل </h4>
+                                    <h4 class="kt-widget24__title">کل تسک های شما </h4>
                                 </div>
 
                                 <span class="kt-widget24__stats kt-font-brand">
-					        {{ $tdlsAssignedToOther->count() }}
+					        {{ $tdlsAssignedToThisUser->count() }}
 					    </span>
                             </div>
 
@@ -189,7 +186,7 @@
                                     <h4 class="kt-widget24__title"> بررسی نشده</h4>
                                 </div>
 
-                                <span class="kt-widget24__stats kt-font-warning"> {{ $tdlsAssignedToOther->where('status', 'بررسی نشده')->count() }}</span>
+                                <span class="kt-widget24__stats kt-font-warning"> {{ $tdlsAssignedToThisUser->where('status', 'بررسی نشده')->count() }}</span>
                             </div>
 
                             <div class="progress progress--sm">
@@ -209,7 +206,7 @@
                                     <h4 class="kt-widget24__title"> انجام شده</h4>
                                 </div>
 
-                                <span class="kt-widget24__stats kt-font-success">{{ $tdlsAssignedToOther->where('status', 'انجام شده')->count() }}</span>
+                                <span class="kt-widget24__stats kt-font-success">{{ $tdlsAssignedToThisUser->where('status', 'انجام شده')->count() }}</span>
                             </div>
 
                             <div class="progress progress--sm">
@@ -231,7 +228,7 @@
                                     <h4 class="kt-widget24__title"> درحال انجام</h4>
                                 </div>
 
-                                <span class="kt-widget24__stats kt-font-danger">{{ $tdlsAssignedToOther->where('status', 'درحال انجام')->count() }}</span>
+                                <span class="kt-widget24__stats kt-font-danger">{{ $tdlsAssignedToThisUser->where('status', 'درحال انجام')->count() }}</span>
                             </div>
 
                             <div class="progress progress--sm">
@@ -262,6 +259,63 @@
         @endif
 
 
+        @can('admin')
+        <div class="row">
+            <div class="col-md-12">
+                <div class="kt-portlet kt-portlet--height-fluid">
+                    <div class="kt-portlet__head">
+                        <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">
+                                نمودار وضعیت کلی تسک های پروژه
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div class="kt-portlet__body">
+                        <div id="overal" style="min-width: 400px; max-width: 600px; height: 500px; margin: 0 auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @endcan
+
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="kt-portlet kt-portlet--height-fluid">
+                    <div class="kt-portlet__head">
+                        <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">
+                                وضعیت تسک های محول شده به شما
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div class="kt-portlet__body">
+                        <div id="assignedToYou" style="min-width: 400px; max-width: 600px; height: 500px; margin: 0 auto"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="kt-portlet kt-portlet--height-fluid">
+                    <div class="kt-portlet__head">
+                        <div class="kt-portlet__head-label">
+                            <h3 class="kt-portlet__head-title">
+                                وضعیت تسک های ایجاد شده توسط شما
+                            </h3>
+                        </div>
+
+                    </div>
+                    <div class="kt-portlet__body">
+                        <div id="assignedToOther" style="min-width: 400px; max-width: 600px; height: 500px; margin: 0 auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <div class="row">
             <div class="col-md-12">
                 <div class="kt-portlet kt-portlet--height-fluid">
@@ -271,7 +325,47 @@
                                 لیست فعالیت های ارجاعی به شما
                             </h3>
                         </div>
+                        <div style="" class="kt-portlet__head-toolbar">
+                            <div class="kt-portlet__head-toolbar-wrapper">
+                                <div class="dropdown dropdown-inline">
+                                    <button style="" type="button" class="btn btn-brand btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="la la-plus"></i> ابزار ها و خروجی ها
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <ul class="kt-nav">
+                                            <li class="kt-nav__section kt-nav__section--first">
+                                                <span class="kt-nav__section-text">انواع خروجی ها</span>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_print2">
+                                                    <i class="kt-nav__link-icon la la-print"></i>
+                                                    <span class="kt-nav__link-text">چاپ</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_copy2">
+                                                    <i class="kt-nav__link-icon la la-copy"></i>
+                                                    <span class="kt-nav__link-text">کپی</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_excel2">
+                                                    <i class="kt-nav__link-icon la la-file-excel-o"></i>
+                                                    <span class="kt-nav__link-text">اکسل</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_csv2">
+                                                    <i class="kt-nav__link-icon la la-file-text-o"></i>
+                                                    <span class="kt-nav__link-text">CSV</span>
+                                                </a>
+                                            </li>
 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="kt-portlet__body">
                         <table style="font-family: iranyekan; width: 100%; direction: rtl!important" class="table table-striped- table-bordered table-hover table-checkable responsive no-wrap" id="m_table_2">
@@ -290,7 +384,18 @@
                             </thead>
                             <tbody>
                             @foreach($tdlsAssignedToThisUser as $tdlAssignedToThisUser)
-                                <tr>
+                                <tr
+                                        @if ($tdlAssignedToThisUser->deadline > Carbon\Carbon::now()->subDays(2)->toDateString()  && $tdlAssignedToThisUser->status != 'انجام شده')
+                                             style=background-color:#f5f6a961!important;
+                                        @elseif(Carbon\Carbon::today()->toDateString() >= $tdlAssignedToThisUser->deadline && $tdlAssignedToThisUser->status != 'انجام شده')
+                                             style=background-color:#f6a9a97a!important;
+                                        @elseif ($tdlAssignedToThisUser->status == 'انجام شده')
+                                             style=background-color:#c8f7c561!important;
+                                        @elseif ($tdlAssignedToThisUser->status == 'متوقف')
+                                             style=background-color:#79877861!important;
+                                         @endif
+
+                                >
                                     <td>{{ \Illuminate\Support\Str::limit($tdlAssignedToThisUser->name, 35, $end='...') }}</td>
                                     <td>{{ $tdlAssignedToThisUser->assignerName }}</td>
                                     <td><span class="badge badge-danger">{{ $tdlAssignedToThisUser->priority }}</span></td>
@@ -325,10 +430,51 @@
                             <h3 class="kt-portlet__head-title">
                                 لیست ارجاعات ارسال شده به دیگران
                             </h3>
+                            <button  style="float: right;margin-right: 40px!important;margin-top: 10px; margin-bottom: 10px ;width: 120px; height: 40px;"   class="btn btn-success  ladda-button"  data-target="#addTask" data-toggle="modal" ><span class="ladda-label">  <i class="icon-plus"></i>  افزودن تسک  </span></button>
                         </div>
-                        <button  style="float: right;margin-right: 40px!important;margin-top: 10px; margin-bottom: 10px ;width: 150px; height: 50px;"   class="btn btn-success  ladda-button"  data-target="#addTask" data-toggle="modal" ><span class="ladda-label">  <i class="icon-plus"></i>  افزودن تسک  </span></button>
+                        <div style="" class="kt-portlet__head-toolbar">
+                            <div class="kt-portlet__head-toolbar-wrapper">
+                                <div class="dropdown dropdown-inline">
+                                    <button style="" type="button" class="btn btn-brand btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="la la-plus"></i> ابزار ها و خروجی ها
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <ul class="kt-nav">
+                                            <li class="kt-nav__section kt-nav__section--first">
+                                                <span class="kt-nav__section-text">انواع خروجی ها</span>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_print3">
+                                                    <i class="kt-nav__link-icon la la-print"></i>
+                                                    <span class="kt-nav__link-text">چاپ</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_copy3">
+                                                    <i class="kt-nav__link-icon la la-copy"></i>
+                                                    <span class="kt-nav__link-text">کپی</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_excel3">
+                                                    <i class="kt-nav__link-icon la la-file-excel-o"></i>
+                                                    <span class="kt-nav__link-text">اکسل</span>
+                                                </a>
+                                            </li>
+                                            <li class="kt-nav__item">
+                                                <a href="#" class="kt-nav__link" id="export_csv3">
+                                                    <i class="kt-nav__link-icon la la-file-text-o"></i>
+                                                    <span class="kt-nav__link-text">CSV</span>
+                                                </a>
+                                            </li>
 
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="kt-portlet__body">
                         <table style="font-family: iranyekan; width: 100%; direction: rtl!important;" class="table table-striped- table-bordered table-hover table-checkable responsive no-wrap" id="m_table_3">
                             <thead style="font-family: BYekan">
@@ -376,7 +522,7 @@
 
 
 
-@if (Auth::user()->id === 3 OR Auth::user()->id === 1 OR Auth::user()->id === 2)
+@can('admin')
             <div class="row">
                 <div class="col-md-12">
                     <div class="kt-portlet kt-portlet--height-fluid">
@@ -385,6 +531,47 @@
                                 <h3 class="kt-portlet__head-title">
                                     تمام تسک ها
                                 </h3>
+                            </div>
+                            <div style="" class="kt-portlet__head-toolbar">
+                                <div class="kt-portlet__head-toolbar-wrapper">
+                                    <div class="dropdown dropdown-inline">
+                                        <button style="" type="button" class="btn btn-brand btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="la la-plus"></i> ابزار ها و خروجی ها
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <ul class="kt-nav">
+                                                <li class="kt-nav__section kt-nav__section--first">
+                                                    <span class="kt-nav__section-text">انواع خروجی ها</span>
+                                                </li>
+                                                <li class="kt-nav__item">
+                                                    <a href="#" class="kt-nav__link" id="export_printAll">
+                                                        <i class="kt-nav__link-icon la la-print"></i>
+                                                        <span class="kt-nav__link-text">چاپ</span>
+                                                    </a>
+                                                </li>
+                                                <li class="kt-nav__item">
+                                                    <a href="#" class="kt-nav__link" id="export_copyAll">
+                                                        <i class="kt-nav__link-icon la la-copy"></i>
+                                                        <span class="kt-nav__link-text">کپی</span>
+                                                    </a>
+                                                </li>
+                                                <li class="kt-nav__item">
+                                                    <a href="#" class="kt-nav__link" id="export_excelAll">
+                                                        <i class="kt-nav__link-icon la la-file-excel-o"></i>
+                                                        <span class="kt-nav__link-text">اکسل</span>
+                                                    </a>
+                                                </li>
+                                                <li class="kt-nav__item">
+                                                    <a href="#" class="kt-nav__link" id="export_csvAll">
+                                                        <i class="kt-nav__link-icon la la-file-text-o"></i>
+                                                        <span class="kt-nav__link-text">CSV</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -473,23 +660,23 @@
                         buttons: ["print", "copyHtml5", "excelHtml5", "csvHtml5", "pdfHtml5"],
                     }
                 ),
-                    $("#export_print").on("click", function (e) {
+                    $("#export_print2").on("click", function (e) {
                             e.preventDefault(), t.button(0).trigger()
                         }
                     ),
-                    $("#export_copy").on("click", function (e) {
+                    $("#export_copy2").on("click", function (e) {
                             e.preventDefault(), t.button(1).trigger()
                         }
                     ),
-                    $("#export_excel").on("click", function (e) {
+                    $("#export_excel2").on("click", function (e) {
                             e.preventDefault(), t.button(2).trigger()
                         }
                     ),
-                    $("#export_csv").on("click", function (e) {
+                    $("#export_csv2").on("click", function (e) {
                             e.preventDefault(), t.button(3).trigger()
                         }
                     ),
-                    $("#export_pdf").on("click", function (e) {
+                    $("#export_pdf2").on("click", function (e) {
                             e.preventDefault(), t.button(4).trigger()
                         }
                     )
@@ -503,23 +690,23 @@
                         buttons: ["print", "copyHtml5", "excelHtml5", "csvHtml5", "pdfHtml5"],
                     }
                 ),
-                    $("#export_print").on("click", function (e) {
+                    $("#export_print3").on("click", function (e) {
                             e.preventDefault(), b.button(0).trigger()
                         }
                     ),
-                    $("#export_copy").on("click", function (e) {
+                    $("#export_copy3").on("click", function (e) {
                             e.preventDefault(), b.button(1).trigger()
                         }
                     ),
-                    $("#export_excel").on("click", function (e) {
+                    $("#export_excel3").on("click", function (e) {
                             e.preventDefault(), b.button(2).trigger()
                         }
                     ),
-                    $("#export_csv").on("click", function (e) {
+                    $("#export_csv3").on("click", function (e) {
                             e.preventDefault(), b.button(3).trigger()
                         }
                     ),
-                    $("#export_pdf").on("click", function (e) {
+                    $("#export_pdf3").on("click", function (e) {
                             e.preventDefault(), b.button(4).trigger()
                         }
                     )
@@ -537,23 +724,23 @@
                         buttons: ["print", "copyHtml5", "excelHtml5", "csvHtml5", "pdfHtml5"],
                     }
                 ),
-                    $("#export_print").on("click", function (e) {
+                    $("#export_printAll").on("click", function (e) {
                             e.preventDefault(), o.button(0).trigger()
                         }
                     ),
-                    $("#export_copy").on("click", function (e) {
+                    $("#export_copyAll").on("click", function (e) {
                             e.preventDefault(), o.button(1).trigger()
                         }
                     ),
-                    $("#export_excel").on("click", function (e) {
+                    $("#export_excelAll").on("click", function (e) {
                             e.preventDefault(), o.button(2).trigger()
                         }
                     ),
-                    $("#export_csv").on("click", function (e) {
+                    $("#export_csvAll").on("click", function (e) {
                             e.preventDefault(), o.button(3).trigger()
                         }
                     ),
-                    $("#export_pdf").on("click", function (e) {
+                    $("#export_pdfAll").on("click", function (e) {
                             e.preventDefault(), o.button(4).trigger()
                         }
                     )
@@ -582,7 +769,208 @@
             });
 
         });
+
+
+
+
+        Highcharts.chart('overal', {
+            colors: ['#6996da','#a26bd9','#806bd9','#6bb8da','#6874d9', '#4572A7', '#89A54E', '#80699B', '#3D96AE', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+            chart: {
+                type: 'pie',
+
+            },
+
+            title: {
+                text: ''
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        enabled: true,
+                        y: -5, //Optional
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'tahoma',
+                            textShadow: false, //bug fixed IE9 and EDGE
+                        },
+                        useHTML: true,
+                    }
+                }
+            },
+
+            tooltip: {
+                useHTML: true,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'tahoma',
+                    direction: 'rtl',
+                },
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+            },
+
+            series: [
+                {
+                    name: "وضعیت",
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: "بررسی نشده",
+                            y: {{ $tasks->where('status', 'بررسی نشده')->count() }},
+                        },
+                        {
+                            name: "درحال انجام",
+                            y: {{ $tasks->where('status', 'درحال انجام')->count() }},
+                        },
+                        {
+                            name: "انجام شده",
+                            y: {{ $tasks->where('status', 'انجام شده')->count() }},
+                        },
+                        {
+                            name: "متوقف",
+                            y: {{ $tasks->where('status', 'متوقف')->count() }},
+                        }
+                    ]
+                }
+            ]
+        });
+
+
+
+
+
+        Highcharts.chart('assignedToYou', {
+            colors: ['#6996da','#a26bd9','#806bd9','#6bb8da','#6874d9', '#4572A7', '#89A54E', '#80699B', '#3D96AE', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+            chart: {
+                type: 'pie',
+
+            },
+
+            title: {
+                text: ''
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        enabled: true,
+                        y: -5, //Optional
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'tahoma',
+                            textShadow: false, //bug fixed IE9 and EDGE
+                        },
+                        useHTML: true,
+                    }
+                }
+            },
+
+            tooltip: {
+                useHTML: true,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'tahoma',
+                    direction: 'rtl',
+                },
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+            },
+
+            series: [
+                {
+                    name: "وضعیت",
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: "بررسی نشده",
+                            y: {{ $tdlsAssignedToThisUser->where('status', 'بررسی نشده')->count() }},
+                        },
+                        {
+                            name: "درحال انجام",
+                            y: {{ $tdlsAssignedToThisUser->where('status', 'درحال انجام')->count() }},
+                        },
+                        {
+                            name: "انجام شده",
+                            y: {{ $tdlsAssignedToThisUser->where('status', 'انجام شده')->count() }},
+                        },
+                        {
+                            name: "متوقف",
+                            y: {{ $tdlsAssignedToThisUser->where('status', 'متوقف')->count() }},
+                        }
+                    ]
+                }
+            ]
+        });
+
+        Highcharts.chart('assignedToOther', {
+            colors: ['#6996da','#a26bd9','#806bd9','#6bb8da','#6874d9', '#4572A7', '#89A54E', '#80699B', '#3D96AE', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+            chart: {
+                type: 'pie',
+
+            },
+
+            title: {
+                text: ''
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        enabled: true,
+                        y: -5, //Optional
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'tahoma',
+                            textShadow: false, //bug fixed IE9 and EDGE
+                        },
+                        useHTML: true,
+                    }
+                }
+            },
+
+            tooltip: {
+                useHTML: true,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'tahoma',
+                    direction: 'rtl',
+                },
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+            },
+
+            series: [
+                {
+                    name: "وضعیت",
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name: "بررسی نشده",
+                            y: {{ $tdlsAssignedToOther->where('status', 'بررسی نشده')->count() }},
+                        },
+                        {
+                            name: "درحال انجام",
+                            y: {{ $tdlsAssignedToOther->where('status', 'درحال انجام')->count() }},
+                        },
+                        {
+                            name: "انجام شده",
+                            y: {{ $tdlsAssignedToOther->where('status', 'انجام شده')->count() }},
+                        },
+                        {
+                            name: "متوقف",
+                            y: {{ $tdlsAssignedToOther->where('status', 'متوقف')->count() }},
+                        }
+                    ]
+                }
+            ]
+        });
+
     </script>
+
 
 
 

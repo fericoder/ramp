@@ -10,7 +10,7 @@ Contact: cyber.injector@yahoo.com
 <head>
     <meta charset="utf-8"/>
 
-    <title>رامپکو  | {{ $title }}</title>
+    <title>سامانه مديريت پروژه رامپکو  | {{ $title }}</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

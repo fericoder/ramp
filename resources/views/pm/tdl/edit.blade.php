@@ -1,7 +1,22 @@
 @extends('layouts.master', ['title' => 'مدیریت وظایف'])
 @section('content')
 
+    <style>
+        .select2-selection__rendered {
+            direction: rtl!important;
+            font-family: byekan !important;
+            text-align: right!important;
+        }
+        .select2-results__option{
+            direction: rtl!important;
+            font-family: byekan !important;
+            text-align: right!important;
+        }
+        .select2{
+            width: 100%!important;
+        }
 
+    </style>
     <!--  Start Add Task PopUp -->
     <div class="modal fade text-left" id="addTask" tabindex="-1" role="dialog" aria-labelledby="myModalLabel17" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -65,9 +80,6 @@
                                         <option class="form-control" value="بالا">بالا</option>
                                         <option class="form-control" value="بحرانی">بحرانی</option>
                                     </select>
-
-
-
                                 </div>
                             </div>
 
@@ -138,7 +150,7 @@
                         </div>
                     </div>
                     <div class="kt-portlet__body">
-                        <form style="vertical-align:center;text-align:center" method="post" action="{{ route('tdl.update', $tdl->id) }}" class="form form-horizontal form-bordered striped-rows">
+                        <form style="vertical-align:center;text-align:center" method="post" enctype="multipart/form-data" action="{{ route('tdl.update', $tdl->id) }}" class="form form-horizontal form-bordered striped-rows">
                             @method('PUT')
                             @csrf
                             <div class="form-body">
@@ -164,6 +176,28 @@
                                     <label class="col-md-3 label-control" for="description">توضیحات</label>
                                     <div class="col-md-9">
                                         <textarea class="form-control" name="description" rows="3" cols="30" disabled >{{ $tdl->description }}</textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 label-control" for="description">مشاهده فایل ایجاد کننده</label>
+                                    <div class="col-md-3">
+                                        @if($tdl->attachment)
+                                            <a target="_blank" href="{{ $tdl->attachment }}"> <i class="fa fa-file" ></i> </a>
+                                            @else
+                                            <span style="direction: rtl!important; text-align: right!important;">ایجاد کننده تسک، فایلی بازگذاری نکرده است.</span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 label-control" for="description">مشاهده فایل متولی انجام</label>
+                                    <div class="col-md-3">
+                                        @if($tdl->doerAttachment)
+                                            <a target="_blank" href="{{ asset($tdl->doerAttachment) }}"> <i class="fa fa-file" ></i> </a>
+                                        @else
+                                            <span style="direction: rtl!important; text-align: right!important;">متولی انجام، فایلی بازگذاری نکرده است.</span>
+                                        @endif
                                     </div>
                                 </div>
 
@@ -207,6 +241,31 @@
                                     </div>
                                 </div>
 
+                                <div class="form-group row last">
+                                    <label class="col-md-3 label-control" for="doerDescription">ارجاع به کاربر دیگر </label>
+                                    <div class="col-md-9">
+                                        <select class="form-control kt-select2" id="kt_select2_1" name="assignedToSecond">
+                                            @foreach($users as $user)
+                                                <option {{ $tdl->assignedTo == $user->id ? 'selected' : '' }} value="{{ $user->id }}">{{ $user->fName . ' ' . $user->lName }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 label-control" for="doerAttachment">بارگذاری فایل  </label>
+                                    <div class="col-md-9">
+                                        <input type="file" id="doerAttachment" class="form-control" name="doerAttachment">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 label-control" for="name">کد فعالیت <sup style="color: red; font-size: 18px" >*</sup> </label>
+                                    <div class="col-md-9">
+                                        <input  type="text" id="activityCode" disabled class="form-control" name="activityCode">
+                                    </div>
+                                </div>
 
 
                             </div>
@@ -237,6 +296,7 @@
 @stop
 
 @section('footerScripts')
+    <script src="/assets/js/pages/crud/forms/widgets/select2.js" type="text/javascript"></script>
 
 
 

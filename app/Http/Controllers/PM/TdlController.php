@@ -115,15 +115,26 @@ class TdlController extends \App\Http\Controllers\Controller
      */
     public function update(Request $request, Tdl $tdl)
     {
+
 //        if ($tdl->assignerId == \Auth::user()->id OR $tdl->assignedTo == \Auth::user()->id ){
 //            alert()->warning('عدم دسترسی');
 //            return redirect()->back();
 //        }
-//
+
+        if ($request->file('doerAttachment'))
+        {
+            $doerAttachment = $this->uploadFile($request->file('doerAttachment'));
+        }else{
+            $doerAttachment = 'nothing';
+        }
+
+
         $tdl->update([
                 'status' => $request->status,
                 'holdPoint' => $request->holdPoint,
                 'doerDescription' => $request->doerDescription,
+                'assignedTo' => $request->assignedToSecond,
+                'doerAttachment' => $doerAttachment,
             ]);
 
         alert()->success('بروز شد.', 'تسک با موفقیت بروز شد.');
