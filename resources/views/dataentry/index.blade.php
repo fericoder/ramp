@@ -84,11 +84,11 @@
                                         </form>
                                     </div>
                                 </nav>
-<div  style=" display:none;">
-                                <a  href="{{ route('engineering.create') }}" class="kt-widget__item kt-widget__item--active disabled"> داشبورد مهندسی</a>
-                                <a href="{{ route('dcc.edit') }}" class="kt-widget__item kt-widget__item--active"> مرکز کنترل اسناد</a>
-                                <a href="{{ route('vpis.create') }}" class="kt-widget__item kt-widget__item--active">مهندسی خرید</a>
-                            </div>
+                                <div  style=" display:none;">
+                                    <a  href="{{ route('engineering.create') }}" class="kt-widget__item kt-widget__item--active disabled"> داشبورد مهندسی</a>
+                                    <a href="{{ route('dcc.edit') }}" class="kt-widget__item kt-widget__item--active"> مرکز کنترل اسناد</a>
+                                    <a href="{{ route('vpis.create') }}" class="kt-widget__item kt-widget__item--active">مهندسی خرید</a>
+                                </div>
                             </div>
                         </div>
                     </div>
