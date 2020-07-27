@@ -15142,7 +15142,7 @@ canvas {
   -ms-user-select: none; }
 
 /* Customize website's scrollbar like Mac OS */
-/* 
+/*
 ::-webkit-scrollbar {
     background-color:#f6f6f6;
     width:14px;
@@ -33585,6 +33585,7 @@ body {
   .kt-body > .kt-container {
     padding: 0; }
   .kt-header-mobile--fixed .kt-wrapper {
+
     padding-top: 60px; } }
 
 @media (min-width: 1025px) {
