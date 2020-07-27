@@ -92,7 +92,7 @@
         <!--begin::Content-->
         <!--begin::Aside-->
         <div style="direction: ltr!important; background: linear-gradient(147.04deg, #006091 0.74%, #3699ffad 99.61%)!important;" class="login-aside order-1 order-lg-2 bgi-no-repeat bgi-position-x-right">
-            <div class="login-conteiner bgi-no-repeat bgi-position-x-right bgi-position-y-bottom" style="background-image: url('/assets/login.png'); ">
+            <div class="login-conteiner bgi-no-repeat bgi-position-x-right bgi-position-y-bottom" style="background-image: url(https://image.freepik.com/free-vector/erp-enterprise-resource-planning-isometric-landing_107791-658.jpg); ">
                 <!--begin::Aside title-->
                 <h3 style="font-size: 3.6rem !important;" class="pt-lg-30 pl-lg-40 pb-lg-0 pr-30 py-20 m-0 d-flex justify-content-lg-start font-weight-boldest display4 display2-lg text-white">سامانه
                     <br />یکپارچه تصمیم ساز دارا
