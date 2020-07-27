@@ -15,6 +15,7 @@ class DataentryController extends Controller
 
 
 
+
     public function events(Request $request)
     {
             $events = Event::all();
