@@ -228,7 +228,7 @@
 
                 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 
-                <span class="kt-subheader__desc iranyekan">صفحه اصلی</span>
+                <span class="kt-sub __desc iranyekan">صفحه اصلی</span>
             </div>
 
         </div>
