@@ -118,6 +118,7 @@
 }
 </style>
 <!-- begin:: Content Head -->
+
 <div class="kt-subheader   kt-grid__item" id="kt_subheader">
   <div class="kt-container">
     <div class="kt-subheader__main">
@@ -134,6 +135,52 @@
 <!-- end:: Content Head -->
 <!-- begin:: Content -->
 <div style="" class="kt-container  kt-grid__item kt-grid__item--fluid">
+<div class="row">
+  <div class="col-md-12">
+
+    <div class="kt-portlet kt-portlet--height-fluid">
+
+      <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                  <div class="kt-portlet__head-label">
+      ویرایش تسک
+
+                  </div>
+                </div>
+
+
+
+
+  <div class="card card-custom">
+  											<div class="card-header card-header-tabs-line">
+
+  												<div class="card-toolbar">
+  													<ul class="nav nav-tabs nav-bold nav-tabs-line">
+  														<li class="nav-item">
+  															<a class="nav-link" data-toggle="tab" href="#kt_tab_pane_1_2">اطلاعات کلی</a>
+  														</li>
+  														<li class="nav-item">
+  															<a class="nav-link active" data-toggle="tab" href="#kt_tab_pane_2_2">آخرین وضعیت</a>
+  														</li>
+  														<li class="nav-item">
+  															<a class="nav-link" data-toggle="tab" href="#kt_tab_pane_3_2">فایل های پیوست</a>
+  														</li>
+  													</ul>
+  												</div>
+  											</div>
+  											<div class="card-body">
+  												<div class="tab-content">
+  													<div class="tab-pane fade" id="kt_tab_pane_1_2" role="tabpanel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+  													<div class="tab-pane fade active show" id="kt_tab_pane_2_2" role="tabpanel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+  													<div class="tab-pane fade" id="kt_tab_pane_3_2" role="tabpanel">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+  												</div>
+  											</div>
+  										</div>
+  										</div>
+  										</div>
+                        </div>
+  										</div>
+
 
 
 
@@ -149,7 +196,7 @@
             <form style="vertical-align:center;text-align:center" method="post" enctype="multipart/form-data" action="{{ route('tdl.update', $tdl->id) }}" class="form form-horizontal form-bordered striped-rows">
               @method('PUT')
               @csrf
-          
+
               <div class="form-body">
 
                 <div class="card-toolbar">
