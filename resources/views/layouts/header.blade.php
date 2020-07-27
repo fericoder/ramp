@@ -189,7 +189,7 @@
                                 <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,10px"
                                      aria-expanded="false">
                                     <span class="kt-header__topbar-username iranyekan"> {{ \Auth::user()->fName . ' ' . \Auth::user()->lName }}</span>
-                                    <img class="" alt="Pic" src="{{ \Auth::user()->avatar }}">
+                                    <img class="" alt="Pic" src="{{ asset(\Auth::user()->avatar) }}">
                                     <!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
                                 </div>
                                 <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-xl">

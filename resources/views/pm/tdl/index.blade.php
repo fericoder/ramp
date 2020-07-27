@@ -277,6 +277,29 @@
                 </div>
             </div>
         </div>
+
+
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="kt-portlet kt-portlet--height-fluid">
+                        <div class="kt-portlet__head">
+                            <div class="kt-portlet__head-label">
+                                <h3 class="kt-portlet__head-title">
+                                    نمودار پراکندگی کاری افراد سازمان
+                                </h3>
+                            </div>
+
+                        </div>
+                        <div class="kt-portlet__body">
+                            <div id="persons" style="min-width: 600px; max-width: 700px; height: 500px; margin: 0 auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         @endcan
 
 
@@ -787,7 +810,7 @@
                 series: {
                     dataLabels: {
                         enabled: true,
-                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        format: '\u202B' + '{point.name}: {point.y:f}', // \u202B is RLE char for RTL support
                         enabled: true,
                         y: -5, //Optional
                         style: {
@@ -808,7 +831,7 @@
                     direction: 'rtl',
                 },
                 headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:f}</b> از کل<br/>'
             },
 
             series: [
@@ -855,7 +878,7 @@
                 series: {
                     dataLabels: {
                         enabled: true,
-                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        format: '\u202B' + '{point.name}: {point.y:f}', // \u202B is RLE char for RTL support
                         enabled: true,
                         y: -5, //Optional
                         style: {
@@ -876,7 +899,7 @@
                     direction: 'rtl',
                 },
                 headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:f}</b> از کل<br/>'
             },
 
             series: [
@@ -919,7 +942,7 @@
                 series: {
                     dataLabels: {
                         enabled: true,
-                        format: '\u202B' + '{point.name}: {point.y:.1f}%', // \u202B is RLE char for RTL support
+                        format: '\u202B' + '{point.name}: {point.y:f}', // \u202B is RLE char for RTL support
                         enabled: true,
                         y: -5, //Optional
                         style: {
@@ -940,7 +963,7 @@
                     direction: 'rtl',
                 },
                 headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> از کل<br/>'
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:f}</b> از کل<br/>'
             },
 
             series: [
@@ -968,6 +991,108 @@
                 }
             ]
         });
+
+
+
+
+
+
+
+
+
+
+        // Create the chart
+        Highcharts.chart('persons', {
+            colors: ['#6996da','#a26bd9','#806bd9','#6bb8da','#6874d9', '#4572A7', '#89A54E', '#80699B', '#3D96AE', '#DB843D', '#92A8CD', '#A47D7C', '#B5CA92'],
+            chart: {
+                type: 'pie'
+            },
+            title: {
+                text: ''
+            },
+
+            accessibility: {
+                announceNewData: {
+                    enabled: true
+                },
+                point: {
+                    valueSuffix: ''
+                }
+            },
+
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '\u202B' + '{point.name}: {point.y:f}', // \u202B is RLE char for RTL support
+                        enabled: true,
+                        y: -5, //Optional
+                        style: {
+                            fontSize: '13px',
+                            fontFamily: 'tahoma',
+                            textShadow: false, //bug fixed IE9 and EDGE
+                        },
+                        useHTML: true,
+                    }
+                }
+            },
+
+            tooltip: {
+                useHTML: true,
+                style: {
+                    fontSize: '13px',
+                    fontFamily: 'tahoma',
+                    direction: 'rtl',
+                },
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:f}</b> <br/>'
+            },
+
+            series: [
+                {
+                    name: "تعداد وظایف",
+                    colorByPoint: true,
+                    data: [
+                        @foreach($persons as $person)
+                        {
+                            name: "{{ $person->first()->doer->fName . ' ' . $person->first()->doer->lName  }}",
+                            y: {{ $person->count()  }},
+                            drilldown: "Chrome"
+                        },
+                        @endforeach
+
+
+                    ]
+                }
+            ],
+            drilldown: {
+                series: [
+                    {
+                        name: "Chrome",
+                        id: "Chrome",
+                        data: [
+                            [
+                                "بررسی نشده",
+                                0.1
+                            ],
+                            [
+                                "درحال انجام",
+                                1.3
+                            ],
+                            [
+                                "انجام شده",
+                                53.02
+                            ],
+                            [
+                                "متوقف",
+                                1.4
+                            ]
+                        ]
+                    },
+                ]
+            }
+        });
+
 
     </script>
 

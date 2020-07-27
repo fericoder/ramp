@@ -23,8 +23,8 @@ class Controller extends BaseController
         $filePath = "/storage/upload/{$year}/{$month}/{$day}/";
         $fileName = time() . "_" . $file->getClientOriginalName();
 
-        $file->move(public_path() . '_html' . $filePath, $fileName);
-//        $file->move(public_path() . $filePath, $fileName);
+//        $file->move(public_path() . '_html' . $filePath, $fileName);
+        $file->move(public_path() . $filePath, $fileName);
         $file = "$filePath" . "$fileName";
 
             return $file;

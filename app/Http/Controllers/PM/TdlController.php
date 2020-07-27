@@ -24,7 +24,8 @@ class TdlController extends \App\Http\Controllers\Controller
         $tdlsAssignedToThisUser = Tdl::where('assignedTo', '=', \Auth::user()->id)->get();
         $tdlsAssignedToOther = Tdl::where('assignerId', '=', \Auth::user()->id)->get();
         $tasks = Tdl::all();
-        return view('pm.tdl.index', compact('tdlsAssignedToThisUser', 'tdlsAssignedToOther', 'users', 'tasks'));
+        $persons = $tasks->groupBy('assignedTo');
+        return view('pm.tdl.index', compact('tdlsAssignedToThisUser', 'tdlsAssignedToOther', 'users', 'tasks', 'persons'));
 
     }
 
